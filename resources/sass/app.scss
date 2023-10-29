@@ -1,0 +1,50 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import "~vuetify/dist/vuetify.min.css";
+@import url('https://fonts.googleapis.com/css?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@import url('https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+html, body {
+  background: $body-bg !important;
+}
+
+.v-application {
+  background-color: var(--v-background-base) !important;
+}
+
+.card-items {
+  min-height: 100px !important;
+  min-width: 230px !important;
+  margin: 8px 14px;
+  .numbers {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .card-items {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-items {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {}
+
+
+.no-margin {
+  margin: 0 !important;
+}
